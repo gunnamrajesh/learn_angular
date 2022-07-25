@@ -10,19 +10,22 @@ h1{
 
 .pTitleFirst{
     float: right;
-    border: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
     background-color: aquamarine;
 }
 
 .pTitleSecond{
     float: right;
-    border: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
     background-color: coral;
 }
 
 .pTitleThird{
     float: right;
-    border: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
     background-color: deepskyblue;
 }
 
@@ -91,13 +94,13 @@ h1{
     
 }
 
+
 @media (max-width: 576px) {
 
 
     .menu{
         background-color: lightgray;
         border: 3px solid black;
-        padding: 10px;
         float: left;
         width: 98%;
         margin: 1%;
@@ -111,3 +114,4 @@ h1{
 
     
 }
+
